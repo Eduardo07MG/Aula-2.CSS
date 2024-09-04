@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: #f9f9f9;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+}
+.search-bar {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.user-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content {
+    display: flex;
+    padding: 20px;
+}
+.video-section {
+    flex: 3;
+    margin-right: 20px;
+}
+.video-player {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.video-player img {
+    width: 480px;
+    height: auto;
+}
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.video-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.channel-name {
+    font-weight: bold;
+}
+.subscribe-button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.video-action {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.action-button {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.suggested-videos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.suggested-video {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.suggested-video img {
+    width: 100px;
+    height: auto;
+}
+.suggested-video p {
+    margin: 0;
+    font-size: 14px;
+}
